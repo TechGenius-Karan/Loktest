@@ -1,0 +1,120 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 23/01/2019 13:57
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/flaticon.eot");
+  src: url("../fonts/flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/flaticon.woff2") format("woff2"),
+       url("../fonts/flaticon.woff") format("woff"),
+       url("../fonts/flaticon.ttf") format("truetype"),
+       url("../fonts/flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+		display: inline-block;
+		font-family: "Flaticon";
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		line-height: 1;
+		text-decoration: inherit;
+		text-rendering: optimizeLegibility;
+		text-transform: none;
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		font-smoothing: antialiased;
+	}
+
+.pbmit-greenly-icon-light:before { content: "\f100"; }
+.pbmit-greenly-icon-light-bulb:before { content: "\f101"; }
+.pbmit-greenly-icon-solar-panel:before { content: "\f102"; }
+.pbmit-greenly-icon-sun:before { content: "\f103"; }
+.pbmit-greenly-icon-windmill:before { content: "\f104"; }
+.pbmit-greenly-icon-flask:before { content: "\f105"; }
+.pbmit-greenly-icon-greenhouse:before { content: "\f106"; }
+.pbmit-greenly-icon-save-water:before { content: "\f107"; }
+.pbmit-greenly-icon-solar-energy:before { content: "\f108"; }
+.pbmit-greenly-icon-solar-panel-1:before { content: "\f109"; }
+.pbmit-greenly-icon-renewable-energy:before { content: "\f10a"; }
+.pbmit-greenly-icon-recycling-bin:before { content: "\f10b"; }
+.pbmit-greenly-icon-recycling:before { content: "\f10c"; }
+.pbmit-greenly-icon-solar-panel-2:before { content: "\f10d"; }
+.pbmit-greenly-icon-recycle-bin:before { content: "\f10e"; }
+.pbmit-greenly-icon-solar-energy-1:before { content: "\f10f"; }
+.pbmit-greenly-icon-nuclear:before { content: "\f110"; }
+.pbmit-greenly-icon-eco-fuel:before { content: "\f111"; }
+.pbmit-greenly-icon-eolic-energy:before { content: "\f112"; }
+.pbmit-greenly-icon-planet-earth:before { content: "\f113"; }
+.pbmit-greenly-icon-plug:before { content: "\f114"; }
+.pbmit-greenly-icon-recycling-1:before { content: "\f115"; }
+.pbmit-greenly-icon-solar-panel-3:before { content: "\f116"; }
+.pbmit-greenly-icon-leaf:before { content: "\f117"; }
+.pbmit-greenly-icon-saturn:before { content: "\f118"; }
+.pbmit-greenly-icon-heart:before { content: "\f119"; }
+.pbmit-greenly-icon-users:before { content: "\f11a"; }
+.pbmit-greenly-icon-calendar:before { content: "\f11b"; }
+.pbmit-greenly-icon-calendar-1:before { content: "\f11c"; }
+.pbmit-greenly-icon-headset:before { content: "\f11d"; }
+.pbmit-greenly-icon-24-hours:before { content: "\f11e"; }
+.pbmit-greenly-icon-email:before { content: "\f11f"; }
+.pbmit-greenly-icon-placeholder:before { content: "\f120"; }
+.pbmit-greenly-icon-pin:before { content: "\f121"; }
+.pbmit-greenly-icon-call:before { content: "\f122"; }
+.pbmit-greenly-icon-message:before { content: "\f123"; }
+.pbmit-greenly-icon-smartphone:before { content: "\f124"; }
+.pbmit-greenly-icon-smartphone-1:before { content: "\f125"; }
+.pbmit-greenly-icon-placeholder-1:before { content: "\f126"; }
+.pbmit-greenly-icon-mail:before { content: "\f127"; }
+    
+    $font-Flaticon-light: "\f100";
+    $font-Flaticon-light-bulb: "\f101";
+    $font-Flaticon-solar-panel: "\f102";
+    $font-Flaticon-sun: "\f103";
+    $font-Flaticon-windmill: "\f104";
+    $font-Flaticon-flask: "\f105";
+    $font-Flaticon-greenhouse: "\f106";
+    $font-Flaticon-save-water: "\f107";
+    $font-Flaticon-solar-energy: "\f108";
+    $font-Flaticon-solar-panel-1: "\f109";
+    $font-Flaticon-renewable-energy: "\f10a";
+    $font-Flaticon-recycling-bin: "\f10b";
+    $font-Flaticon-recycling: "\f10c";
+    $font-Flaticon-solar-panel-2: "\f10d";
+    $font-Flaticon-recycle-bin: "\f10e";
+    $font-Flaticon-solar-energy-1: "\f10f";
+    $font-Flaticon-nuclear: "\f110";
+    $font-Flaticon-eco-fuel: "\f111";
+    $font-Flaticon-eolic-energy: "\f112";
+    $font-Flaticon-planet-earth: "\f113";
+    $font-Flaticon-plug: "\f114";
+    $font-Flaticon-recycling-1: "\f115";
+    $font-Flaticon-solar-panel-3: "\f116";
+    $font-Flaticon-leaf: "\f117";
+    $font-Flaticon-saturn: "\f118";
+    $font-Flaticon-heart: "\f119";
+    $font-Flaticon-users: "\f11a";
+    $font-Flaticon-calendar: "\f11b";
+    $font-Flaticon-calendar-1: "\f11c";
+    $font-Flaticon-headset: "\f11d";
+    $font-Flaticon-24-hours: "\f11e";
+    $font-Flaticon-email: "\f11f";
+    $font-Flaticon-placeholder: "\f120";
+    $font-Flaticon-pin: "\f121";
+    $font-Flaticon-call: "\f122";
+    $font-Flaticon-message: "\f123";
+    $font-Flaticon-smartphone: "\f124";
+    $font-Flaticon-smartphone-1: "\f125";
+    $font-Flaticon-placeholder-1: "\f126";
+    $font-Flaticon-mail: "\f127";
